@@ -8,14 +8,14 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 3. [Exploratory Data Analysis on categorical variables](#exploratory-data-analysis-on-categorical-variables)
 4. [Predictive modeling using Random tree forest](#predictive-modeling-using-random-tree-forest)
 
-## Cleaning the dataset
-[Insert link to your cleaning code or description here]
+# Contributors
+- @glynislxl - Data Cleaning , Predictive modeling
+- @xinping - Exploratory Data Analysis on numeric variables
+- @qingwen - Exploratory Data Analysis on categorical variables
 
-## Exploratory Data Analysis on numeric variables
-[Insert link to your EDA code or description here]
+# Problem definition
+which predicators are the most accurate / reliable in  determining the future score (G3)
 
-## Exploratory Data Analysis on categorical variables
-[Insert link to your EDA code or description here]
-
-## Predictive modeling using Random tree forest
-[Insert link to your predictive modeling code or description here]
+# References
+- [https://archive.ics.uci.edu/dataset/320/student+performance]
+- [https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578]
