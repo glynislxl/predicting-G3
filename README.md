@@ -16,6 +16,10 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 # Problem definition
 which predicators are the most accurate / reliable in  determining the future score (G3)
 
+# Conclusion
+
+# What did we learn from this project?
+- 
 # References
 - https://archive.ics.uci.edu/dataset/320/student+performance
 - https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578
