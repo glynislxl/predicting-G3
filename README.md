@@ -32,7 +32,7 @@ Success : determine future score (G3) using the predicators we found that are ac
 
 Rationale : By understanding which predictors have the strongest association with future scores, you can build more effective predictive models. This can lead to better allocation of resources and interventions to support students who may be at risk of achieving lower scores.
 
-# 2. Data Preparation and Cleaning
+# Data Preparation and Cleaning
 In this section of the project, we prepped and cleaned the dataset to help us to analyze our data better and also to help us use our data for the purposes of machine learning in the later sections.
 
 We performed the following:
@@ -42,20 +42,20 @@ We performed the following:
 4. Converting Categorical Data to Numerical Data using One-Hot Encoding, producing a separate data frame with a column per category 
 Eg. 4 Categories (A-D) , if row n has value of A, under the column for A it has a value of 1, for columns B-D is has value of 0
 
-# 3. Exploratory Data Analysis on Numeric Variables
+# Exploratory Data Analysis on Numeric Variables
 
-# 4. Exploratory Data Analysis on Categorical Variables
+# Exploratory Data Analysis on Categorical Variables
 
-# 5. Predictive modeling using Random Tree Forest
+# Predictive modeling using Random Tree Forest
 
-# 6. Conclusion
+# Conclusion
 
 
-# 7. References
+# References
 - https://archive.ics.uci.edu/dataset/320/student+performance
 - https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578
 
-# 8. Learning Outcomes
+# Learning Outcomes
 
 ---
 
