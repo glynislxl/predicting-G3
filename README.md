@@ -24,7 +24,7 @@ This README breifly highlights what we have accomplished in the project. If you 
    
 ---
 
-# 1. Problem definition
+# 1. #problem-definition
 Our Dataset: https://archive.ics.uci.edu/dataset/320/student+performance 
 Our Question: Which predicators are the most accurate / reliable in  determining the future score (G3) ?
 
