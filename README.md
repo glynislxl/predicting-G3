@@ -43,6 +43,8 @@ We performed the following:
 4. **Converting Categorical Data to Numerical Data using One-Hot Encoding**, producing a separate data frame with a column per category 
 Eg. 4 Categories (A-D) , if row n has value of A, under the column for A it has a value of 1, for columns B-D is has value of 0
 
+For full code, please refer to the Jupyter Notebook on Data Preparation and Cleaning
+
 # Exploratory Data Analysis on Numeric Variables
 Then, we performed **linear regression** on 3 numeric variables (absences, health and studytime)
 
@@ -56,14 +58,14 @@ By leveraging K-fold cross-validation, we can **achieve a more accurate and cons
 
 Based on our findings, we concluded that **'studytime' is the most accurate numeric predictor of 'G3' grades within the given dataset** as it has a relatively stronger association with the target variable ('G3' grades) compared to the other numeric variables.
 
-For further findings and explanations, please refer to the Jupyter Notebook on EDA.
+For further findings and explanations, please refer to the Jupyter Notebook on EDA on Numeric Variables.
 
 # Exploratory Data Analysis on Categorical Variables
 Next, we used **decision tree model** on 5 categorical variables (address, paid, activities, higher education and reason)
 
 Based on the classification accuracies obtained, we concluded that **'paid' is the most accurate categorical predictor of 'G3' grades within the given dataset** as it demonstrates the highest accuracy among the categorical variables assessed.
 
-For further findings and explanations, please refer to the Jupyter Notebook on EDA.
+For further findings and explanations, please refer to the Jupyter Notebook on EDA on Categorical Variables.
 
 # Predictive modeling using Random Tree Forest
 Here, we leveraged the **Random Forest model**, combining key numeric (without removing the outliers) and categorical variables—specifically 'studytime' and 'paid'—to investigate their collective impact on predicting the G3 score. This approach was taken based on preliminary findings that these variables individually contributed significant predictive power. By integrating both types of data into the Random Forest, we aimed to enhance the model's accuracy.
@@ -75,7 +77,7 @@ Reasons for not removing the outliers in the numeric variable:
 - **Valuable Insights**: Outliers may provide valuable insights into students' performance patterns. Education is not a one-size-fits all approach, and there will be students who will perform significantly better or worse than others. Hence removing outliers would be potentially overlooking any complex, non-linear relationships that might have been detected by our model.
 We have noticed that the combined model did not improve the overall accuracy afterall.
 
-For further findings and explanations, please refer to the Jupyter Notebook on Predictive modeling.
+For further findings and explanations, please refer to the Jupyter Notebook on Predictive Modeling.
 
 # Conclusion
 Despite the higher classification accuracy of paid, when considering R² score and MSE (which are more directly relevant to the regression task), studytime appears to have a slightly better performance compared to paid or the combined model.
@@ -85,6 +87,8 @@ In conclusion, studytime alone may offer a simpler and more interpretable model 
 # References
 - https://archive.ics.uci.edu/dataset/320/student+performance
 - https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578
+- https://towardsdatascience.com/random-forest-3a55c3aca46d
+- https://www.datacamp.com/tutorial/random-forests-classifier-python
 
 # Learning Outcomes
 Embarking on this project has been a journey of discovery, expanding our knowledge beyond the confines of our course curriculum for our group. 
