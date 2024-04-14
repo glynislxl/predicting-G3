@@ -87,8 +87,13 @@ In conclusion, studytime alone may offer a simpler and more interpretable model 
 # References
 - https://archive.ics.uci.edu/dataset/320/student+performance
 - https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578
+- https://www.statology.org/k-fold-cross-validation-in-python/
+- https://www.youtube.com/watch?v=TIgfjmp-4BA
+- https://www.youtube.com/watch?v=etkxDx4gesk
 - https://towardsdatascience.com/random-forest-3a55c3aca46d
-- https://www.datacamp.com/tutorial/random-forests-classifier-python
+- https://www.geeksforgeeks.org/random-forest-regression-in-python/
+- https://www.youtube.com/watch?v=YUsx5ZNlYWc
+- https://www.youtube.com/watch?v=HDVIc66vi_0
 
 # Learning Outcomes
 Embarking on this project has been a journey of discovery, expanding our knowledge beyond the confines of our course curriculum for our group. 
