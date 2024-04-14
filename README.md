@@ -39,7 +39,7 @@ In this section of the project, we prepped and cleaned the dataset to help us to
 We performed the following:
 1. **Preliminary variable selection** : 8 relevant variables (3 numerical and 5 categorical) out of 33 were selected
 2. **Encoding numeric variable**: the numeric variable were encoded appropriately by assigning letter grades to the respective numeric scores and adding a new column to the dataset
-3. **Removing outliers for numeric variables**
+3. **Removing outliers for numeric variables**: using box-plot method
 4. **Converting Categorical Data to Numerical Data using One-Hot Encoding**, producing a separate data frame with a column per category 
 Eg. 4 Categories (A-D) , if row n has value of A, under the column for A it has a value of 1, for columns B-D is has value of 0
 
@@ -54,18 +54,31 @@ In our exploratory data analysis, the decision to utilize **K-fold cross-validat
 
 By leveraging K-fold cross-validation, we can **achieve a more accurate and consistent estimation of model performance**, an essential factor in our analysis given the limited data size. 
 
-Based on our findings, we concluded that 'studytime' is the most accurate numeric predictor of 'G3' grades within the given dataset as it has a relatively stronger association with the target variable ('G3' grades) compared to the other numeric variables.
+Based on our findings, we concluded that **'studytime' is the most accurate numeric predictor of 'G3' grades within the given dataset** as it has a relatively stronger association with the target variable ('G3' grades) compared to the other numeric variables.
 
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
 
 # Exploratory Data Analysis on Categorical Variables
 Next, we used **decision tree model** on 5 categorical variables (address, paid, activities, higher education and reason)
 
+Based on the classification accuracies obtained, we concluded that **'paid' is the most accurate categorical predictor of 'G3' grades within the given dataset** as it demonstrates the highest accuracy among the categorical variables assessed.
+
+For further findings and explanations, please refer to the Jupyter Notebook on EDA.
 
 # Predictive modeling using Random Tree Forest
+Here, we leveraged the **Random Forest model**, combining key numeric (without removing the outliers) and categorical variables—specifically 'studytime' and 'paid'—to investigate their collective impact on predicting the G3 score. This approach was taken based on preliminary findings that these variables individually contributed significant predictive power. By integrating both types of data into the Random Forest, we aimed to enhance the model's accuracy.
+
+Random Forests, known for their robustness against overfitting and ability to handle diverse data types effectively, provided a strategic framework to assess the combined influence of these variables. 
+
+Reasons for not removing the outliers in the numeric variable:
+- **Model Robustness**: Since Random Forest can handle outliers as it makes use of the ensemble method, which is the utilising of, and combining multiple different models to obtain better predictive performance. This reduces the impact of any outliers, casuing the predictive method to not be significantly affected by them.
+- **Valuable Insights**: Outliers may provide valuable insights into students' performance patterns. Education is not a one-size-fits all approach, and there will be students who will perform significantly better or worse than others. Hence removing outliers would be potentially overlooking any complex, non-linear relationships that might have been detected by our model.
+We have noticed that the combined model did not improve the overall accuracy afterall.
 
 # Conclusion
+Despite the higher classification accuracy of paid, when considering R² score and MSE (which are more directly relevant to the regression task), studytime appears to have a slightly better performance compared to paid or the combined model.
 
+In conclusion, studytime alone may offer a simpler and more interpretable model compared to the combined model involving categorical encoding and interactions between variables.
 
 # References
 - https://archive.ics.uci.edu/dataset/320/student+performance
