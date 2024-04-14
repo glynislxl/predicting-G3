@@ -21,7 +21,7 @@ This README breifly highlights what we have accomplished in the project. If you 
 
 ---
 
-# Problem definition
+# 1. Problem definition
 which predicators are the most accurate / reliable in  determining the future score (G3)
 
 # Conclusion
