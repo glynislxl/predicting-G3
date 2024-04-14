@@ -1,7 +1,15 @@
 # predicting G3
 Mini-Project for SC1015 - Introduction to Data Science and Artificial Intelligence
+Lab: FCED
+Group: 2
 
 # About
+This repository contains all the Jupyter Notebooks, dataset, video presentation and the source materials/references we have used and created as part of the Mini Project.
+
+This README breifly highlights what we have accomplished in the project. If you want a more detailed explanation of things, please refer to the Jupyter Notebooks in this repository. They contain more in-depth descriptions and smaller details which are not mentioned here in the README. For convenience, we have divided the notenooks into smaller parts.
+
+---
+
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on predicting G3 score from various predictors. For detailed walkthrough, please view the source code in order from:
 1. [Cleaning the dataset](#cleaning-the-dataset)
 2. [Exploratory Data Analysis on numeric variables](#exploratory-data-analysis-on-numeric-variables)
