@@ -100,6 +100,6 @@ These newfound skills not only enriched our understanding of machine learning me
 ---
 
 # Contributors
-- (@glynislxl) - Data Cleaning , Predictive modeling
+- \@glynislxl - Data Cleaning , Predictive modeling
 - Wang Xin Ping - Exploratory Data Analysis on numeric variables
 - Goh Qing Wen - Exploratory Data Analysis on categorical variables
