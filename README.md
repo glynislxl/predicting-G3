@@ -75,6 +75,8 @@ Reasons for not removing the outliers in the numeric variable:
 - **Valuable Insights**: Outliers may provide valuable insights into students' performance patterns. Education is not a one-size-fits all approach, and there will be students who will perform significantly better or worse than others. Hence removing outliers would be potentially overlooking any complex, non-linear relationships that might have been detected by our model.
 We have noticed that the combined model did not improve the overall accuracy afterall.
 
+For further findings and explanations, please refer to the Jupyter Notebook on Predictive modeling.
+
 # Conclusion
 Despite the higher classification accuracy of paid, when considering R² score and MSE (which are more directly relevant to the regression task), studytime appears to have a slightly better performance compared to paid or the combined model.
 
@@ -85,6 +87,15 @@ In conclusion, studytime alone may offer a simpler and more interpretable model 
 - https://medium.com/@bididudy/the-essential-guide-to-k-fold-cross-validation-in-machine-learning-2bcb58c50578
 
 # Learning Outcomes
+Embarking on this project has been a journey of discovery, expanding our knowledge beyond the confines of our course curriculum for our group. 
+
+Two key learnings stand out prominently: the utilization of K-fold cross-validation and the application of Random Forest models for predictive modeling. 
+
+K-fold cross-validation introduced us to a robust technique for assessing model performance, especially vital in scenarios where data is limited, as in our case. This method allowed us to maximize the utility of our dataset, ensuring that our model's performance metrics were reliable and indicative of its true capabilities. 
+
+Additionally, our exploration into Random Forest models illuminated the power of ensemble learning techniques in handling complex datasets comprising both numerical and categorical variables. Through experimentation with this versatile algorithm, we gained insights into its strengths in mitigating overfitting and capturing intricate patterns within the data. 
+
+These newfound skills not only enriched our understanding of machine learning methodologies but also equipped us with practical tools for tackling real-world challenges beyond the scope of our academic coursework.
 
 ---
 
