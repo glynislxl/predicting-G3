@@ -47,16 +47,17 @@ Eg. 4 Categories (A-D) , if row n has value of A, under the column for A it has 
 Then, we performed **linear regression** on 3 numeric variables (absences, health and studytime)
 
 In our exploratory data analysis, the decision to utilize **K-fold cross-validation** was driven by several important considerations. 
-1. Given the relatively small size of our dataset (~650 entries), the risk of overfitting while performing linear regression on our numeric variables (absences, health, and studytime) is significantly heightened.
+- Given the relatively small size of our dataset (~650 entries), the risk of overfitting while performing linear regression on our numeric variables (absences, health, and studytime) is significantly heightened.
 - K-fold cross-validation addresses this issue effectively by dividing the entire dataset into 'K' number of subsets, thereby allowing the model to be trained and validated multiple times across different segments of data.
 - This method enhances the reliability of the model by ensuring that every data point gets to be part of both the training and validation sets across the folds.
 - Additionally, it improves the generalizability of our findings, making our regression model more robust against different samples of data.
 
-By leveraging K-fold cross-validation, we can achieve a more accurate and consistent estimation of model performance, an essential factor in our analysis given the limited data size.
+By leveraging K-fold cross-validation, we can **achieve a more accurate and consistent estimation of model performance**, an essential factor in our analysis given the limited data size. 
 
-Based on the mean R^2 scores obtained from the analysis, it appears that the **'studytime' variable demonstrates the highest predictive accuracy among the numeric variables assessed**, with a mean R^2 score of approximately 0.0516. This indicates that 'studytime' has a relatively stronger association with the target variable ('G3' grades) compared to the other numeric variables. On the other hand, 'absences' yielded a mean R^2 score of around 0.0314, suggesting a somewhat lower predictive power compared to 'studytime'. Lastly, 'health' exhibited the lowest mean R^2 score of approximately 0.00308, indicating the weakest predictive capability among the numeric variables examined. 
+Based on our findings, we concluded that 'studytime' is the most accurate numeric predictor of 'G3' grades within the given dataset as it has a relatively stronger association with the target variable ('G3' grades) compared to the other numeric variables.
 
-Therefore, based on these results, we concluded that 'studytime' is the most accurate numeric predictor of 'G3' grades within the given dataset.
+For further findings and explanations, please refer to the Jupyter Notebook on EDA.
+
 # Exploratory Data Analysis on Categorical Variables
 Next, we used **decision tree model** on 5 categorical variables (address, paid, activities, higher education and reason)
 
