@@ -26,6 +26,7 @@ This README breifly highlights what we have accomplished in the project. If you 
 
 # Problem Definition
 Our Dataset: https://archive.ics.uci.edu/dataset/320/student+performance 
+
 Our Question: Which predicators are the most accurate / reliable in  determining the future score (G3) ?
 
 Success : determine future score (G3) using the predicators we found that are accurate / reliable
@@ -36,10 +37,10 @@ Rationale : By understanding which predictors have the strongest association wit
 In this section of the project, we prepped and cleaned the dataset to help us to analyze our data better and also to help us use our data for the purposes of machine learning in the later sections.
 
 We performed the following:
-1. preliminary variable selection : 8 relevant variables (3 numerical and 5 categorical) out of 33 were selected
-2. encoding numeric variable : the numeric variable were encoded appropriately by assigning letter grades to the respective numeric scores and adding a new column to the dataset
-3. removing outliers for numerical variables
-4. Converting Categorical Data to Numerical Data using One-Hot Encoding, producing a separate data frame with a column per category 
+1. **Preliminary variable selection** : 8 relevant variables (3 numerical and 5 categorical) out of 33 were selected
+2. **Encoding numeric variable**: the numeric variable were encoded appropriately by assigning letter grades to the respective numeric scores and adding a new column to the dataset
+3. **Removing outliers for numeric variables**
+4. **Converting Categorical Data to Numerical Data using One-Hot Encoding**, producing a separate data frame with a column per category 
 Eg. 4 Categories (A-D) , if row n has value of A, under the column for A it has a value of 1, for columns B-D is has value of 0
 
 # Exploratory Data Analysis on Numeric Variables
